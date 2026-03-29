@@ -1,0 +1,27 @@
+{
+  "name": "wmt-lab-9",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IT24101979/wmt-lab-9#readme",
+  "bugs": {
+    "url": "https://github.com/IT24101979/wmt-lab-9/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT24101979/wmt-lab-9.git"
+  },
+  "license": "ISC",
+  "author": "Ravindu Wijesundara",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.3.3"
+  }
+}
