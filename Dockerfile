@@ -34,4 +34,6 @@ CMD ["node", "server.js"]
 
 # Default port: 3000
 
+# docker buildx build   --platform linux/amd64,linux/arm64   -t ravindutw/node-test:2   --push .
+
 # docker run -d --restart always -p 3000:3000 --env-file .env --name wmt wmtlab9:latest
